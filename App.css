@@ -1,0 +1,26 @@
+body{
+  background-color: #1D1D1D;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+.App_Layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.App__Top{
+  
+
+}
+.App_Bottom{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 1rem;
+ 
+}
+div::-webkit-scrollbar{
+  width: 0;
+}

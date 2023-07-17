@@ -1,0 +1,94 @@
+.chatBox_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 2rem;
+    
+}
+.chatBox__display{
+    background: #303339;
+    width: 40rem;
+    min-height: 30rem;
+max-height: 8rem;
+/* CTA Colors/Link */
+margin-bottom: 1rem;
+border: 1px solid #00AFF4;
+box-sizing: border-box;
+border-radius: 7px;
+overflow-y: scroll;
+padding: 1rem;
+}
+.chatBox_inputs{
+    width: 40rem;
+    height: 3rem;
+background: #40444B;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 7px;
+margin-bottom: 1rem;
+display: flex;
+align-items: center;
+padding: 5px 1rem;
+}
+.chatBox_inputs>input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: none;
+    color: lightgray;
+    font-weight: 400;
+    font-size: 1rem;
+letter-spacing: -0.05em;
+}
+.chatBox_inputs>img{
+    
+    cursor: pointer;
+
+}
+/* .chatBox_inputs>img:hover{
+    box-shadow: 0 0 10px #949CF7;
+} */
+.chatBox__Recommend_Button{
+height: 2.5rem;
+width: 10rem;
+background: #3BA55C;
+border-radius: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+cursor: pointer;
+}
+.chatBox__Recommend_Button:hover{
+    box-shadow: 0 0 10px #3BA55C;
+}
+
+
+.messege{
+    display: flex;
+    margin: 1rem 0;
+}
+.messege>p{
+word-wrap: break-word;
+font-weight: 400;
+font-size: 1.2rem;
+color: #DCDDDE;
+padding: 10px;
+max-width: 50%;
+display: inline-block;
+background-color: #40444B;
+border-radius:7px;
+margin-bottom: 1rem;
+}
+.sender{
+ 
+    
+    justify-content: flex-end;
+}
+.reciver{
+    
+    
+    justify-content: flex-start;
+   
+}

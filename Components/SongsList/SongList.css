@@ -1,0 +1,8 @@
+.songList{
+    background: #202225;
+    border-radius: 5px;
+    padding: 13.5px 16px;
+    overflow-y: scroll;
+    height: 30rem;
+    min-width: 15rem;
+}

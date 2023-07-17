@@ -1,0 +1,32 @@
+.eachSong__Container{
+    background: #36393F;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 8px 13px;
+    display: flex;
+    width: 300px;
+    height: 65px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.song__cover{
+    width: 45px;
+height: 45px;
+background: #FFFFFF;
+border-radius: 7px;
+}
+.song__cover>img{
+    object-fit: contain;
+    width: 45px;
+    height: 45px;
+}
+.song__info{
+    margin-left: 10px;
+}
+.song__info>p{
+    
+    font-weight: 600;
+font-size: 13px;
+line-height: 26px;
+color: #DCDDDE;
+}
